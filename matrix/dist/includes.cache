@@ -11,8 +11,8 @@
   },
   {
     "Sourcefile": "c:\\GIT\\ESP32-Projects\\matrix\\dist\\sketch\\matrix.ino.cpp",
-    "Include": "PxMatrix.h",
-    "Includepath": "C:\\Users\\jo_ki\\OneDrive\\Dokumente\\Arduino\\libraries\\PxMatrix_LED_MATRIX_library"
+    "Include": "ESP32-HUB75-MatrixPanel-I2S-DMA.h",
+    "Includepath": "C:\\Users\\jo_ki\\OneDrive\\Dokumente\\Arduino\\libraries\\ESP32_HUB75_LED_MATRIX_PANEL_DMA_Display"
   },
   {
     "Sourcefile": "c:\\GIT\\ESP32-Projects\\matrix\\dist\\sketch\\matrix.ino.cpp",
@@ -21,11 +21,21 @@
   },
   {
     "Sourcefile": "c:\\GIT\\ESP32-Projects\\matrix\\dist\\sketch\\matrix.ino.cpp",
-    "Include": "SPI.h",
-    "Includepath": "C:\\Users\\jo_ki\\AppData\\Local\\Arduino15\\packages\\esp32\\hardware\\esp32\\1.0.6\\libraries\\SPI\\src"
+    "Include": "",
+    "Includepath": null
   },
   {
-    "Sourcefile": "c:\\GIT\\ESP32-Projects\\matrix\\dist\\sketch\\matrix.ino.cpp",
+    "Sourcefile": "C:\\Users\\jo_ki\\OneDrive\\Dokumente\\Arduino\\libraries\\ESP32_HUB75_LED_MATRIX_PANEL_DMA_Display\\ESP32-HUB75-MatrixPanel-I2S-DMA.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\jo_ki\\OneDrive\\Dokumente\\Arduino\\libraries\\ESP32_HUB75_LED_MATRIX_PANEL_DMA_Display\\ESP32-HUB75-MatrixPanel-leddrivers.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\jo_ki\\OneDrive\\Dokumente\\Arduino\\libraries\\ESP32_HUB75_LED_MATRIX_PANEL_DMA_Display\\esp32_i2s_parallel_v2.c",
     "Include": "",
     "Includepath": null
   },
@@ -46,6 +56,11 @@
   },
   {
     "Sourcefile": "C:\\Users\\jo_ki\\OneDrive\\Dokumente\\Arduino\\libraries\\Adafruit_GFX_Library\\Adafruit_GrayOLED.cpp",
+    "Include": "SPI.h",
+    "Includepath": "C:\\Users\\jo_ki\\AppData\\Local\\Arduino15\\packages\\esp32\\hardware\\esp32\\1.0.6\\libraries\\SPI\\src"
+  },
+  {
+    "Sourcefile": "C:\\Users\\jo_ki\\OneDrive\\Dokumente\\Arduino\\libraries\\Adafruit_GFX_Library\\Adafruit_GrayOLED.cpp",
     "Include": "",
     "Includepath": null
   },
@@ -56,11 +71,6 @@
   },
   {
     "Sourcefile": "C:\\Users\\jo_ki\\OneDrive\\Dokumente\\Arduino\\libraries\\Adafruit_GFX_Library\\glcdfont.c",
-    "Include": "",
-    "Includepath": null
-  },
-  {
-    "Sourcefile": "C:\\Users\\jo_ki\\AppData\\Local\\Arduino15\\packages\\esp32\\hardware\\esp32\\1.0.6\\libraries\\SPI\\src\\SPI.cpp",
     "Include": "",
     "Includepath": null
   },
@@ -81,6 +91,11 @@
   },
   {
     "Sourcefile": "C:\\Users\\jo_ki\\AppData\\Local\\Arduino15\\packages\\esp32\\hardware\\esp32\\1.0.6\\libraries\\Wire\\src\\Wire.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\jo_ki\\AppData\\Local\\Arduino15\\packages\\esp32\\hardware\\esp32\\1.0.6\\libraries\\SPI\\src\\SPI.cpp",
     "Include": "",
     "Includepath": null
   }
