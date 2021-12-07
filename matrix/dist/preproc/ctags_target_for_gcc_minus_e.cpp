@@ -30,6 +30,4 @@ HUB75_I2S_CFG mxconfig(
  _pins, // pin mapping
 );
 
-void setup () {
-  MatrixPanel_I2S_DMA dma_display = new MatrixPanel_I2S_DMA(mxconfig);
-}
+MatrixPanel_I2S_DMA dma_display = new MatrixPanel_I2S_DMA(mxconfig);
