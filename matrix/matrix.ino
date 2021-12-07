@@ -30,6 +30,7 @@ void setup()
 void loop()
 {
 	drawShader();
+	delay(100);
 }
 
 void drawShader()
@@ -39,18 +40,18 @@ void drawShader()
 		for (int j = 0; j < PANEL_RES_Y; j++)
 		{
 			dma_display->drawPixel(i, j, fragmentShader(i, j, (float)i / (float)PANEL_RES_X, (float)j / (float)PANEL_RES_Y));
-			delay(10);
-			dma_display->clearScreen();
+			// delay(10);
+			// dma_display->clearScreen();
 		}
 	}
 }
 
 uint16_t fragmentShader(uint64_t x, uint64_t y, float u, float v)
 {
-	dma_display->setCursor(0, 0);
-	dma_display->print(v);
-	dma_display->setCursor(0, 12);
-	dma_display->print(u);
-	return dma_display->color565(255, 255, 0);
-	// return dma_display->color565((int8_t)u * 255, (int8_t)v * 255, 0);
+	// dma_display->setCursor(0, 0);
+	// dma_display->print(v);
+	// dma_display->setCursor(0, 12);
+	// dma_display->print(u);
+	// return dma_display->color565(255, 255, 0);
+	return dma_display->color565((int8_t)(u * (float)255), (int8_t)(v * (float)255.0), 0);
 }
