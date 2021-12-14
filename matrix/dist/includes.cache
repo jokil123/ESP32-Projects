@@ -21,6 +21,11 @@
   },
   {
     "Sourcefile": "c:\\GIT\\ESP32-Projects\\matrix\\dist\\sketch\\matrix.ino.cpp",
+    "Include": "Vector.h",
+    "Includepath": "C:\\Users\\jo_ki\\OneDrive\\Dokumente\\Arduino\\libraries\\Vector\\src"
+  },
+  {
+    "Sourcefile": "c:\\GIT\\ESP32-Projects\\matrix\\dist\\sketch\\matrix.ino.cpp",
     "Include": "",
     "Includepath": null
   },
@@ -71,6 +76,11 @@
   },
   {
     "Sourcefile": "C:\\Users\\jo_ki\\OneDrive\\Dokumente\\Arduino\\libraries\\Adafruit_GFX_Library\\glcdfont.c",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\jo_ki\\OneDrive\\Dokumente\\Arduino\\libraries\\Vector\\src\\Vector\\Vector.cpp",
     "Include": "",
     "Includepath": null
   },
